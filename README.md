@@ -1,4 +1,4 @@
-# cocos2d-win32-trick
+# cocos2d-win32-window-close
 Added win32 close button callback which is absent from the original engine.
 
 In the original cocos2d-x engine there is no proper way to handle a onWindowCloseButtonPressed event on win32 platform.
