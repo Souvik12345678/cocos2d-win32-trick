@@ -46,6 +46,6 @@ In main.cpp replace:
 					
 #
 
-Now if we press the window close button, AppDelegate::applicationShouldClose() function will be executed instead of closing the application.
+Now if we run the app and press the window close button, AppDelegate::applicationShouldClose() function will be executed instead of closing the application.
 
 To close the application we need to call Director::getInstance()->end(); explicitly.
