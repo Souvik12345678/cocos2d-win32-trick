@@ -37,8 +37,8 @@ In AppDelegate.h add 2 new functions to the AppDelegate class declaration:
 	  
 In AppDelegate.cpp implement both functions:
   - applicationShouldClose() //Will contain our own close callback logic.
-  - In run1() function paste the code from AppDelegate.cpp file in this repo;
-  - There is also a "static void PVRFrameEnableControlWindow(bool)" function which is to be copied from AppDelegate.cpp file in this repo.
+  - In run1() function paste the code from the AppDelegate.cpp file from this repo;
+  - There is also a "static void PVRFrameEnableControlWindow(bool)" function which is to be copied from the AppDelegate.cpp file from this repo.
 										                      
 In main.cpp replace:  
 "return Application::getInstance()->run();" line with  
