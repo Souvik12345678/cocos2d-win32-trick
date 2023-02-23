@@ -42,7 +42,7 @@ In AppDelegate.cpp implement both functions:
 										                      
 In main.cpp replace:  
 "return Application::getInstance()->run();" line with  
-"app.run1();"
+"return app.run1();"
 					
 #
 
